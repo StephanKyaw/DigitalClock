@@ -1,0 +1,53 @@
+body {
+    background-color: #000;
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.clock-container{
+    background-color: #222;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 10px rgba(255, 255, 255, .2);
+
+    padding: 20px;
+
+    margin-top: 200px;
+}
+
+#clock{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.controls{
+    margin-top: 10px;
+}
+
+button,select{
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    padding: 10px;
+    margin: 5px;
+}
+
+button{
+    background-color: blue;
+    color: #fff;
+}
+
+button:hover{
+    background-color: rgb(13, 13, 123);
+}
